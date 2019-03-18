@@ -62,7 +62,7 @@ Use the -dw setting to download the files, and after that you can rename
 them according to you input file with the -rename option. 
 
 """
-WHOWHEN = "Guillem Portella, rev. October 2018"
+WHOWHEN = "Guillem Portella, rev. Jan 2019"
 
 
 def do_download_sra(*, to_dw):
