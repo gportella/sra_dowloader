@@ -96,6 +96,8 @@ def do_rename_sra(*, to_dw):
             print(f"Did you run the script with -dw first?")
             print(f"If so, make sure it's not still downloading.")
             sys.exit()
+=======
+>>>>>>> 9dade7204afd4dd775a62d6b7b38d24b1ea8c9bb
 
 
 def parse_input_file(inp_f: str, verbose: bool) -> Dict[str, Dict[str, str]]:
