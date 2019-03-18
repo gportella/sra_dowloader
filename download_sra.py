@@ -48,8 +48,8 @@ def parse_input_file(inp_f: str, verbose: bool) -> Dict[str, Dict[str, str]]:
     else:
         my_prefetch = PREFETCH
 
-    if config.has_option("Config", "fqdump_path"):
-        my_fqdump = config.get("Config", "fqdump_path")
+    if config.has_option("Config", "prefetch_path"):
+        my_fqdump = config.get("Config", "prefetch_path")
     else:
         my_fqdump = FQDUMP
 
